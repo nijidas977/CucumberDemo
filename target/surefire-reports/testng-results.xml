@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-08T07:37:09 IST" name="Surefire suite" finished-at="2022-04-08T07:37:34 IST" duration-ms="25406">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGfailedtestrunner@6db9f5a4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGtestrunner@6e509ffa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-04-08T07:37:09 IST" name="Surefire test" finished-at="2022-04-08T07:37:34 IST" duration-ms="25406">
+      <class name="testRunner.TestNGfailedtestrunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNGfailedtestrunner@6db9f5a4]" started-at="2022-04-08T07:37:09 IST" name="setUpClass" finished-at="2022-04-08T07:37:12 IST" duration-ms="3118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5da7cee2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGfailedtestrunner@6db9f5a4]" started-at="2022-04-08T07:37:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T07:37:32 IST" duration-ms="20184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add product to cart and Proceed to checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Place the order for Products]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGfailedtestrunner@6db9f5a4]" started-at="2022-04-08T07:37:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T07:37:32 IST" duration-ms="19834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add product to cart and Proceed to checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Place the order for Products]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNGfailedtestrunner@6db9f5a4]" started-at="2022-04-08T07:37:32 IST" name="tearDownClass" finished-at="2022-04-08T07:37:34 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestNGfailedtestrunner -->
+      <class name="testRunner.TestNGtestrunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNGtestrunner@6e509ffa]" started-at="2022-04-08T07:37:34 IST" name="setUpClass" finished-at="2022-04-08T07:37:34 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5da7cee2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNGtestrunner@6e509ffa]" started-at="2022-04-08T07:37:34 IST" name="tearDownClass" finished-at="2022-04-08T07:37:34 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestNGtestrunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
