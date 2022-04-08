@@ -2,7 +2,7 @@ Alphabets
 a
 b
 c
-d
+
 
 Numbers
 12345
